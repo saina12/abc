@@ -1,0 +1,84 @@
+/* abc html */
+/* abc html */
+
+body{
+	background: #f4f4f4;
+}
+
+#all{
+	position: relative;
+	background-position: top center;
+	width: 1000px;
+	height:650px;
+	margin: 0 auto;
+}
+
+
+#header{
+	position: relative;
+	width: 1000px;
+	height: 10px;
+	margin: 0 auto;
+}
+
+#playFieldBG {
+	//background:  url(../images/bgSnowMob.gif) no-repeat;
+	position: relative;
+	width: 1000px;
+	height: 650px;
+	margin: 0 auto;
+	position: absolute;
+	display: inline;
+}
+
+#playField{
+	position: relative;
+	width: 1000px;
+	height: 650px;
+	margin: 0 auto;
+	font-size:50px;
+}
+
+#playField .letter {
+	position: absolute;
+	display: inline;
+	top: 100px;
+	left: 100px;
+	max-height:22%;
+	max-width:22%;
+}
+
+
+
+#playFieldF {
+	//background:  url(../images/fsnow.png) no-repeat;
+	width: 1000px;
+	height: 650px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#startText{
+	background-color:  #ffffff;
+	width: 1000px;
+	height: 150px;
+	top: 150px;
+	margin: 0 auto;
+	position: absolute;
+	text-align:centre;
+}
+
+#playField .start {
+	position: absolute;
+	display: inline;
+	top: 80px;
+	left: 300px;
+}
+
+#playField .reStart {
+	position: absolute;
+	display: inline;
+	top: 80px;
+    left: 281px;
+    width: 498px;
+}
