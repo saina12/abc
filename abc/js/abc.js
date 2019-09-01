@@ -121,9 +121,8 @@ var abcGame = {
         abcGame.matrix = abcGame.deviceSettings.dmatrix;
         //"restartButtonTop"
 
-        abcGame.restartButton.style.top =
-        abcGame.deviceSettings.restartButtonTop;
-        if (let startButton && (startButton != undefined)) {
+        abcGame.restartButton.style.top = abcGame.deviceSettings.restartButtonTop;
+        if (startButton && (startButton !== undefined)) {
             //"startButtonTop"
             startButton.style.top = abcGame.deviceSettings.startButtonTop;
             startTextBlock.style.top = abcGame.deviceSettings.startTextBlock;
